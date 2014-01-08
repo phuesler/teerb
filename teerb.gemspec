@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["patrick.huesler@gmail.com"]
   spec.summary       = "Ruby Tee Utils"
   spec.description   = "Several ways to capture and tee Ruby's standard input and output"
-  spec.homepage      = "https://https://github.com/phuesler/teerb"
+  spec.homepage      = "https://github.com/phuesler/teerb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
