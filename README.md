@@ -53,5 +53,5 @@
 
 ## Problems
 
-This only works for `$stdout` and `$stderr` and not for `STDOUT` and `STDERR`, since are constants
+This only works for `$stdout` and `$stderr` and not for `STDOUT` and `STDERR`, since they constants
 that should not be reassigned.
