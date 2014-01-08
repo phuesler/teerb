@@ -104,12 +104,4 @@ module TeeRb
 end
 
 
-    require 'logger'
 
-    log_file = File.open("debug.log", "a")
-    logger = Logger.new(TeeRb::IODelegate.new(log_file, STDOUT))
-    tee = TeeRb::LoggerTee.new(logger)
-    tee.enable
-    logger.warn "warn"
-    $stderr.puts "stderr hello"
-    puts "stdout hello"
