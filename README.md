@@ -4,6 +4,10 @@
   * Pipe calls to $stdout and $stderr to an instance of Ruby's logger class
   * Pipe calls to an instance of Ruby's logger class to $stdout
 
+## Installation
+
+    $: gem install teerb
+
 ## Usage
 
 
