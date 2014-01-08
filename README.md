@@ -43,7 +43,7 @@
     puts "stdout hello"
 
 
-  * Pipe calls to an instance of Ruby's logger class to $stdout
+    # Pipe calls to an instance of Ruby's logger class to $stdout
     require 'logger'
     log_file = File.open("debug.log", "a")
     logger = Logger.new(TeeRb::IODelegate.new(log_file, STDOUT))
